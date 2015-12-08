@@ -5,6 +5,13 @@
 - A formula usada é V / L ** X (V = valor da coluna, L = mol do arquivo, X = valor inserido para respectiva coluna).
 - É necessário **python3** instalado
 
+Executar
+=======
+```sh
+$ python3 dat.py
+```
+
+
 ![image](http://i.imgur.com/06nnOu7.png)
 
 ![image](https://i.imgur.com/tJLeo8U.png)
