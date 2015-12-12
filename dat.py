@@ -13,9 +13,9 @@ if len(files) ==  0:
 
 for arq in files:
 	#Regex captura o valor de L =  no nome do arquivo
-	regex = re.compile('\w{1,}mol')
+	regex = re.compile('wDARL=(\d+)mol=')
 	l = regex.search(arq)
-	l = int(l.group()[:-3])
+	l = int(l.group(1))
 
 	#Abre o arquivo em modo de leitura e faz a leitura dos dados
 	dat = open('dat/' + arq, 'r')
